@@ -1,0 +1,17 @@
+Benchmark,Time(ms),Operations,Ops/Sec
+Add 100 elements,0.159,100,628931
+Add 1000 elements,1.59,1000,628931
+Add 10000 elements,14.659,10000,682175
+Add 100000 elements,109.464,100000,913542
+Contains 100 lookups,0.011,100,9.09091e+06
+Contains 1000 lookups,0.122,1000,8.19672e+06
+Contains 10000 lookups,1.141,10000,8.76424e+06
+Contains 100000 lookups,12.829,100000,7.79484e+06
+Merge sets of 100 elements,0.062,100,0
+Merge sets of 1000 elements,0.656,1000,0
+Merge sets of 10000 elements,7.468,10000,0
+Merge sets of 50000 elements,44.483,50000,0
+Remove 100 elements,0.33,100,303030
+Remove 1000 elements,24.436,1000,40923.2
+Remove 10000 elements,2370.3,10000,4218.88
+Remove 50000 elements,55758.2,50000,896.728
